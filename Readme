@@ -1,0 +1,45 @@
+# Testing,Documenting,and Linting Code With Jest,JsDoc,Eslinting 
+> This project is intended to be used as assignment as to how one would document and test their code and check the coverage of the source code to then turn into API Documentation.
+
+
+## Table of Contents
+
+1. [Installation](#1-installation)
+2. [Testing](#2-testing)
+3. [Building the Documentation](#3-build-the-documentation)
+4. [Release History](#4-release-history)
+
+
+## 1. Installation
+
+Setup a new or existing npm package
+sh
+npm -init -y
+
+
+Install the Jest dependencies
+sh
+npm i -D jest
+
+Install the Jsdoc dependencies
+sh
+npm i -D jsdoc
+
+## 2. Testing
+
+Testing the project arithmetic
+sh
+npm run test
+
+
+## 3. Building the Documentation
+
+Build the jsdoc documentation from the source code
+sh
+npm run doc
+
+
+## 4. Release History
+
+* 0.0.1
+    * Initial release
